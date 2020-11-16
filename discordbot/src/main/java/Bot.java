@@ -6,7 +6,7 @@ public class Bot {
 
     public static void main(String[] args) throws Exception{
 
-        JDA jda = JDABuilder.createDefault("Nzc3ODY5Njg4OTY5MTAxMzUy.X7JtmQ.6Zznjo1C3yyMDZ-J3qIylQ5d-9s").build();
+        JDA jda = JDABuilder.createDefault("Nzc3ODY5Njg4OTY5MTAxMzUy.X7JtmQ.FLBYnAEB-8WuPSOnj951A3W-UcU").build();
 
         jda.addEventListener(new HelloEvent());
     }
