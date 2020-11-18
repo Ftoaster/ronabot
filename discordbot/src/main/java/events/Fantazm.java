@@ -10,7 +10,7 @@ public class Fantazm extends ListenerAdapter {
 
     public static String todayveteran() throws Exception {
         Document document = Jsoup.connect(CONNECT_URL).get();
-        Elements dg = document.select("#btothetop > div.row > div.col-md-9 > div:nth-child(2) > table > tbody > tr");
+        Elements dg = document.select("#btothetop > div.row > div.col-md-9 > div:nth-child(2) > table > tbody > tr > td:nth-child(1)");
         return dg.text();
     }
 }
